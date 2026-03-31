@@ -9,5 +9,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Hello-world';
+  title = 'First Tutorial';
+  name = 'Angular';
+  data = 100;
+  data2 = 200;
+
+
+  
 }
