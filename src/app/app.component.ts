@@ -18,13 +18,16 @@ import { ProfileComponent } from './profile/profile.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'First Tutorial';
-  name = 'Angular';
-  data = 100;
-  data2 = 200;
-  user1='Kelvin';
-  user2= 'Kamau';
+count : number = 0;
 
+increase(){
+  this.count++;
+}
+decrease(){
+  this.count--;
+}
+reset(){
+  this.count = 0;
+}
 
-  
 }
